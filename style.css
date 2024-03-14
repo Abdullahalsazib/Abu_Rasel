@@ -231,4 +231,15 @@ button {
 .right_foot {
   display: flex;
   justify-content: right;
+  text-transform: capitalize;
+}
+/* right_foot */
+.right_foot ul {
+  font-size: 20px;
+  font-weight: 500;
+  padding-inline: 20px;
+}
+
+.right_foot ul li {
+  font-size: 15px;
 }
