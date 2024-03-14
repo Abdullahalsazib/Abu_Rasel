@@ -1,0 +1,234 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+:root {
+  --textColor: rgba(1, 1, 1, 255);
+  --webYellow: rgba(252, 219, 0, 255);
+  --Gray: #7b7b84;
+  --white: #fff;
+}
+/* raw code */
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+header {
+  height: 95vh;
+  width: 100%;
+  padding-inline: 15%;
+  background: var(--webYellow);
+}
+header nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: var(--webYellow);
+  padding-block: 30px;
+}
+.logo {
+  display: flex;
+}
+.logo p {
+  font-size: 30px;
+  padding: 0 10px;
+  font-weight: 700;
+}
+.logo i {
+  font-size: 50px;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+li a {
+  color: var(--textColor);
+  padding: 10px 20px;
+  font-size: 22px;
+  font-weight: 600;
+}
+/* myControl */
+.myControl {
+  width: 100% !important;
+  height: 100% !important;
+  background: red;
+}
+
+/* home */
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.left {
+  width: 496px;
+}
+.left h1 {
+  font-size: 43px;
+  font-weight: 700;
+  color: var(--textColor);
+}
+.p1 {
+  font-size: 20px;
+  font-weight: 400;
+}
+.p2 {
+  color: var(--Gray);
+  font-weight: 100;
+}
+.home_icons {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.home_icons {
+  display: flex;
+  align-items: center;
+  justify-content: left;
+}
+.home_icons a {
+  font-size: 40px;
+  color: var(--textColor);
+  padding-inline-start: 0;
+  padding-inline: 10px;
+  padding-block: 10px;
+}
+.android {
+  margin-inline: 10px;
+}
+/* features_container */
+.features_container {
+  height: 100vh;
+  padding-inline: 15%;
+  padding-block: 5%;
+}
+.title_of_features {
+  text-align: center;
+  color: var(--textColor);
+  padding-inline: 10%;
+}
+.title_of_features h1 {
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.title_of_features p {
+  color: var(--Gray);
+  font-weight: 100;
+  font-size: 19px;
+}
+
+/* cards_of_features */
+.cards_of_features {
+  /* background-color: red; */
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 15px;
+  row-gap: 20px;
+  padding-block: 15px;
+}
+
+.cards_of_features .card {
+  /* width: 300px; */
+  display: grid;
+  border: none;
+  grid-template-columns: auto auto;
+  gap: 25px;
+  padding: 15px;
+}
+.l_side i {
+  font-size: 50px;
+}
+.r_side h3 {
+  font-size: 24px;
+  font-weight: 500;
+  text-transform: capitalize;
+  color: var(--textColor);
+}
+
+.r_side p {
+  font-weight: 400;
+  color: var(--Gray);
+  padding-inline-end: 10px;
+}
+/* contact_contaier */
+.contact_contaier {
+  background: var(--textColor);
+  padding-inline: 15%;
+  padding-block: 5%;
+  text-align: center;
+}
+.contact_title {
+  text-align: center;
+  color: var(--textColor);
+  padding-inline: 10%;
+}
+.contact_title h1 {
+  color: var(--webYellow);
+  font-weight: 700;
+  text-transform: capitalize;
+}
+.contact_title p {
+  color: var(--Gray);
+  font-weight: 100;
+  font-size: 19px;
+}
+
+/* contact */
+.contact {
+  margin-block: 50px;
+}
+.contact input {
+  border: none;
+  outline: none;
+  font-size: 18px;
+  padding: 5px 20px;
+  width: 50%;
+  border-radius: 9px;
+}
+.contact input,
+button {
+  height: 50px;
+}
+.contact button {
+  padding: 10px 30px;
+  border-radius: 9px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-inline-start: 10px;
+  background: var(--webYellow);
+}
+.about_icons {
+  padding-block: 30px;
+}
+.about_icons a {
+  background: var(--webYellow);
+  padding: 15px 18px;
+  border-radius: 9px;
+  font-size: 25px;
+  margin-inline: 20px;
+  text-align: center;
+  color: var(--textColor);
+}
+/* footer_container */
+.footer_container {
+  background: var(--textColor);
+  color: var(--white);
+  padding-inline: 15%;
+  padding-block: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+/* right_foot */
+.right_foot {
+  display: flex;
+  justify-content: right;
+}
